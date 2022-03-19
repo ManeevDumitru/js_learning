@@ -76,3 +76,12 @@ function ucFirst(str) {
 }
 
 alert(ucFirst(str));
+
+// EX 5
+
+str = prompt('Paste a currency!','');
+
+function extractCurrencyValue(str){
+    return +str.slice(1);
+}
+alert(extractCurrencyValue(str));
