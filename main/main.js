@@ -44,3 +44,9 @@ let b = +prompt('Give the second number!','');
 let c = a + b;
 
 alert(`The sum of these two numbers is ${c}`);
+
+// EX 3
+
+let a = +prompt('Give the first number!','');
+let b = +prompt('Give the second number!','');
+let c = +prompt('Give the third number!','');
