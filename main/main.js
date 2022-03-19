@@ -136,11 +136,26 @@ if (x == "" && y == ""){
 // ------------------------- EX 9 -----------------------
 
 
-name = prompt('Как вас зовут?','');
+let name = prompt('Как вас зовут?','');
 alert(`Привет ${name}`)
-learn = confirm('Вы знакомы с JavaScript?')
+let learn = confirm('Вы знакомы с JavaScript?')
 if (learn == true){
     alert('Молодец!')
 } else {
     alert('Можно начать обучение прямо сейчас!')
 }
+
+// -------------------- EX 10 ----------------------------
+
+let num = +prompt(`Give the number to know it's dividers`,'');
+
+const dividers = (num) => {
+    let dividers = [];
+    for (let i = 2; i < num ; i++){
+        if(num % i == 0){
+            dividers.push(i)
+        }
+    }
+    return dividers
+}
+alert(dividers(num))
