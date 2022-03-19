@@ -1,7 +1,7 @@
 
 // JS SYNTAX
 
-// EX 1
+// ---------------------------- EX 1 ----------------------------------
 let x = +prompt('Give a number between 0 and 9','')
 
 switch (x){
@@ -36,7 +36,7 @@ switch (x){
         alert('You pasted the wrong number!')
 }
 
-// EX 2
+// -------------------------- EX 2 -------------------------------------
 
 let a = +prompt('Give the first number!','');
 let b = +prompt('Give the second number!','');
@@ -46,7 +46,7 @@ let c = a + b;
 alert(`The sum of these two numbers is ${c}`);
 
 
-// EX 3
+// --------------------------- EX 3 -----------------------------------
 
 let a = +prompt('Give the first number!','');
 let b = +prompt('Give the second number!','');
@@ -68,7 +68,7 @@ if (a < b && a < c){
     alert('The third number is the smallest')
 };
 
-// EX 4
+// ---------------------------- EX 4 -----------------------------------
 
 str = prompt('Paste a string!','');
 function ucFirst(str) {
@@ -77,7 +77,7 @@ function ucFirst(str) {
 
 alert(ucFirst(str));
 
-// EX 5
+// ------------------------ EX 5 -------------------------------
 
 str = prompt('Paste a currency!','');
 
@@ -86,7 +86,7 @@ function extractCurrencyValue(str){
 }
 alert(extractCurrencyValue(str));
 
-// EX 6
+// ----------------------- EX 6 -----------------------------
 
 let x = +prompt('Give a number for identification','');
 
@@ -100,7 +100,7 @@ if (x > 0){
     alert('Error!')
 }
 
-// EX 7
+// ------------------- EX 7 --------------------------------
 
 let x = +prompt('Give a number for checking','');
 
@@ -117,3 +117,19 @@ if (!(x >= 14 && x <= 90)){
 } else {
     alert('Number is perfect!')
 };
+
+// ------------------------- EX 8 --------------------------------
+
+let x = prompt('Write the username',);
+let y = prompt('Write the password',);
+
+if (x == "" && y == ""){
+    alert('Ошибка валидации')
+} else if (x && !y){
+    alert('Неправильный пароль!')
+} else if (!x && y) {
+    alert('Неправильное имя!')
+} else if (x == y){
+    alert('Привет')
+}
+
