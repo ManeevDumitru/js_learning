@@ -35,3 +35,14 @@ switch (x){
     default:
         alert('You pasted the wrong number!')
 }
+
+
+// EX 2
+
+let a = +prompt('Give the first number!','');
+let b = +prompt('Give the second number!','');
+
+let c = a + b;
+
+alert(`The sum of these two numbers is ${c}`);
+
