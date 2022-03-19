@@ -67,3 +67,12 @@ if (a < b && a < c){
 } else {
     alert('The third number is the smallest')
 };
+
+// EX 4
+
+str = prompt('Paste a string!','');
+function ucFirst(str) {
+    return str[0].toUpperCase() + str.slice(1);
+}
+
+alert(ucFirst(str));
