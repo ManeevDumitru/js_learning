@@ -47,6 +47,26 @@ alert(`The sum of these two numbers is ${c}`);
 
 // EX 3
 
+// EX 3
+
 let a = +prompt('Give the first number!','');
 let b = +prompt('Give the second number!','');
 let c = +prompt('Give the third number!','');
+
+if (a > b && a > c){
+    alert('The first number is the greatest!')
+} else if (b > a && b > c){
+    alert('The second number is the greatest!')
+} else {
+    alert('The third number is the greatest')
+};
+
+if (a < b && a < c){
+    alert('The first number is the smallest!')
+} else if (b < a && b < c){
+    alert('The second number is the smallest!')
+} else {
+    alert('The third number is the smallest')
+};
+
+
