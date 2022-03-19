@@ -85,3 +85,15 @@ function extractCurrencyValue(str){
     return +str.slice(1);
 }
 alert(extractCurrencyValue(str));
+
+// EX 6
+
+let x = +prompt('Give a number for identification','');
+
+if (x > 0){
+    alert(1);
+} else if ( x == 0){
+    alert(0);
+} else if (x < 0){
+    alert(-1);
+}
