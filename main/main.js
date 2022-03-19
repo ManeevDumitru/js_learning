@@ -96,4 +96,24 @@ if (x > 0){
     alert(0);
 } else if (x < 0){
     alert(-1);
+} else {
+    alert('Error!')
 }
+
+// EX 7
+
+let x = +prompt('Give a number for checking','');
+
+if (x >= 14 && x <= 90){
+    alert('Number is perfect!')
+} else {
+    alert('Number is not coresponding to the criteria!')
+};
+
+// V.2
+
+if (!(x >= 14 && x <= 90)){
+    alert('Number is not coresponding to the criteria')
+} else {
+    alert('Number is perfect!')
+};
